@@ -1,4 +1,4 @@
-# aluraspa
+# Alura Serviços de SPA
 Projeto Referente ao curso da Alura de Front-End
 
 </br>
