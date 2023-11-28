@@ -1,0 +1,190 @@
+html, body {
+  font-family: "Roboto", san-serif;
+}
+
+nav {
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  padding: 1rem;
+}
+nav ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #6C3428;
+}
+nav ul li a:hover {
+  border-bottom: 2px solid #BA704F;
+}
+
+.banner {
+  background: url(../imagens/banner.jpeg) 27% center no-repeat;
+  min-height: 350px;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.9;
+}
+.banner .inner-banner {
+  padding: 3em;
+  background-color: #DFA878;
+  opacity: 0.7;
+  border-radius: 20px;
+}
+.banner .inner-banner h1 {
+  color: #6C3428;
+  font-size: 3rem;
+}
+.banner .inner-banner h2 {
+  color: #6C3428;
+  font-size: 1rem;
+}
+
+#servicos {
+  margin: 80px;
+}
+#servicos h3 {
+  font-size: 1.6666666667rem;
+  color: #BA704F;
+  font-weight: 700;
+  text-align: center;
+  margin: 1rem;
+}
+#servicos h4 {
+  font-size: 1.5rem;
+  color: #DFA878;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 80px;
+}
+#servicos .cards {
+  display: flex;
+  justify-content: space-evenly;
+}
+#servicos .cards .card {
+  width: 360px;
+  text-align: center;
+}
+#servicos .cards .card h5 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  color: #BA704F;
+}
+#servicos .cards .card p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #BA704F;
+  line-height: 1.25rem;
+  padding: 0 1.5rem;
+  text-align: justify;
+}
+#servicos .cards .card .img-container {
+  padding-bottom: 2px;
+  border-bottom: 5px solid #BA704F;
+}
+#servicos .cards .card .img-container img {
+  max-width: 100%;
+}
+
+#cupom {
+  background-color: #DFA878;
+  padding: 2rem;
+  text-align: center;
+}
+#cupom .texto {
+  color: #6C3428;
+}
+#cupom .texto h2 {
+  margin: 2rem;
+  font-size: 1.5789473684rem;
+}
+#cupom .input {
+  margin: 0 auto;
+  width: 380px;
+  border-radius: 10px;
+  border: 4px solid white;
+  background: white;
+}
+#cupom .input input {
+  border-radius: 25px;
+  height: 28px;
+  border: none;
+  width: 300px;
+  outline: none;
+  text-align: center;
+  font-size: 18px;
+  color: #6C3428;
+}
+#cupom .input:hover, #cupom .input:focus-within {
+  box-shadow: 1px 1px 8px 1px #6C3428;
+  outline: none;
+}
+#cupom button {
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 1rem;
+  outline: none;
+  width: 130px;
+  height: 40px;
+  cursor: pointer;
+  background-color: #6C3428;
+  color: #BA704F;
+  letter-spacing: 1.4px;
+  font-family: "Roboto", san-serif;
+  font-size: 12px;
+  font-weight: bold;
+  border: 2px #6C3428;
+  border-radius: 40px;
+}
+#cupom button:hover {
+  color: #6C3428;
+  background-color: #BA704F;
+  border-color: #DFA878;
+}
+
+#bemestar {
+  margin: 5rem;
+  display: flex;
+}
+#bemestar .img-bemestar {
+  width: 60%;
+  padding-left: 20px;
+}
+#bemestar .texto h3 {
+  font-size: 1.6666666667rem;
+  color: #BA704F;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+#bemestar .texto h4 {
+  font-size: 1.5rem;
+  color: #DFA878;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2em;
+}
+#bemestar .texto p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #BA704F;
+  line-height: 2rem;
+  text-align: justify;
+}
+
+footer {
+  text-align: center;
+  font-size: 3rem;
+  border-top: 2px solid #6C3428;
+  margin-top: 1rem;
+  padding: 1.2rem;
+  background: linear-gradient(to left, #6C3428, #BA704F, #DFA878, #6C3428);
+}
+footer i {
+  color: red;
+}/*# sourceMappingURL=style.css.map */
