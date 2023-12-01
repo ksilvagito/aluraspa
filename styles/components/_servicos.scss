@@ -50,25 +50,8 @@
 
 @media screen and (max-width: 600px) {
 
-    #servicos {
-
-        h4 {           
-            text-align: justify;           
-        }
-        .cards {
-            display: inline-block;
-            justify-content: center;
-            .card {
-                width: 260px;
-                text-align: center;                
-                p {                    
-                    line-height: 1.25rem;                  
-                }
-                .img-container {
-                    padding-top: 2px;                   
-                }
-            }
-        }
+    .cards {
+        display: block;
+        justify-content: center;
     }
-
 }
