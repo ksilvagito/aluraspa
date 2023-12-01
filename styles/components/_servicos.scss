@@ -48,9 +48,7 @@
     }
 }
 
-@media screen and (max-width: 600px) {
-
-    #servicos {
+@media screen and (max-width: 480px) {
 
         h4 {           
             text-align: justify;           
@@ -69,6 +67,4 @@
                 }
             }
         }
-    }
-
 }
