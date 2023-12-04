@@ -1,8 +1,12 @@
+@import '../abstrat/variaveis';
 
 .banner {
     background: url(../imagens/banner.jpeg) 27% center no-repeat;
     min-height: 350px;
-    background-size: cover; //ocupa todo esoaco possivel
+    background-size: cover; //ocupa todo espaco possivel
+    @media (max-width: $tamanho-mobile) {
+        display: block;
+    }
     display: flex;
     justify-content: center;
     align-items: center;
@@ -23,7 +27,6 @@
         
     }
 }
-
 
 //@use	carrega mixins, functions e variáveis de outras folhas de estilos Sass e combina o CSS de diversas folhas de estilo juntos.
 //@forward	carrega uma folha de estilo Sass e torna os mixins, functions e variáveis disponíveis quando a folha de estilo é carregada pela regra do @use.

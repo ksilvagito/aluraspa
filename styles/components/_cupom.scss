@@ -12,6 +12,9 @@
         }
     }
     .input {
+        @media (max-width: $tamanho-mobile) {
+            width: 290px;
+        }
         margin: 0 auto;
         width: 380px;
         border-radius: 10px;
@@ -20,8 +23,11 @@
         input {
             border-radius: 25px;
             height: 28px;
-            border: none;
-            width: 300px;
+            border: none; 
+            @media (max-width: $tamanho-mobile) {
+                width: 290px;
+            }           
+            width: 300px;           
             outline: none;
             text-align: center;
             font-size: 18px;

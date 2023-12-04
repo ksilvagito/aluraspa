@@ -1,7 +1,13 @@
 @import '../abstrat/variaveis';
 
 
-#bemestar {    
+#bemestar {   
+        @media (max-width: $tamanho-mobile) {
+            display: block;
+            .img-bemestar {
+                width: 30%; 
+            }
+        }    
         margin: 5rem;
         display: flex;
         .img-bemestar {
@@ -24,7 +30,7 @@
                 text-align: center;
                 margin-bottom: 2em;
             }
-            p{
+            p {
                 font-size: $tamanho-texto/3;
                 font-weight: 400;
                 color: $cor-secundaria;
