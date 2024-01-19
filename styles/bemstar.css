@@ -1,0 +1,60 @@
+
+#bemestar {    
+    display: flex;
+    margin: 4rem;
+}
+ 
+.img-bemestar {
+    width: 50% auto;
+    align-self: auto;   
+    object-fit: contain; 
+}
+
+.bemstar-texto {
+    text-align: center;    
+    font-size: 1.5rem;
+}
+
+.bemstar-texto h3 {    
+    color: var(--cor-secundaria);
+    font-weight: 700;    
+    font-size: 2rem;
+    margin: 1rem;
+}
+
+.bemstar-texto h4 {    
+    color: var(--cor-terciaria);
+    font-weight: 400;
+    padding: 2rem 4rem;
+}
+
+.bemstar-texto p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--cor-secundaria);
+    line-height: 2rem;
+    text-align: justify;
+    margin:1.5rem;
+}
+
+
+@media screen and (max-width: 1300px) { 
+    
+        
+    #bemestar {    
+        display: block;
+        justify-content: center;
+        margin: 2rem;
+    }    
+
+    .bemstar-texto {
+        margin-top: 2rem;
+    }    
+
+    .bemstar-texto p {     
+        text-align: justify;
+        margin: 1rem 3rem;
+    }
+    
+}
+

@@ -1,0 +1,83 @@
+
+#cupom {
+    background-color: var(--cor-terciaria);
+    padding: 2rem;
+    text-align: center;
+}
+
+.cupom-texto {
+    color: var(--cor-primaria);
+}
+
+.cupom-texto h2 {
+    margin: 2rem;
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.inscricao-input {
+    display: flex;
+    margin: 0 auto;
+    width: 360px;
+    height: auto;
+    border-radius: 10px;
+    
+}
+
+.inscricao-texto-email {
+    color: var(--cor-secundaria);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.input-email {
+    border-radius: 25px;
+    height: 40px;
+    border: none;
+    width: 350px;
+    outline: none;
+    text-align: center;
+    font-size: 18px;
+    color: var(--cor-primaria);
+}
+
+.input-email:hover {
+    box-shadow: 1px 1px 8px 1px var(--cor-primaria);
+    outline: none;  
+}
+
+.input-email:focus-within {
+    box-shadow: 1px 1px 8px 1px var(--cor-primaria);
+    outline: none;  
+}
+
+.input-email:focus::-webkit-input-placeholder {
+    color: transparent;
+ }
+
+.cupom-enviar {
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 1rem;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    background-color: var(--cor-primaria);
+    color: var(--cor-secundaria);
+    letter-spacing: 1.4px;    
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px var(--cor-primaria);
+    border-radius: 40px;
+}
+
+.cupom-enviar:hover {
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    border-color: var(--cor-terciaria);
+}
+  
+
+
+ 

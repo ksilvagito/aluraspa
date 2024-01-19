@@ -6,34 +6,31 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Alura SPA</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
-        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
     <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+
 </head>
 
 <body>
-
-    <header>
-        <nav>
-            <ul>
+    <header class="cabecalho">
+        <nav class="menu-nav">
+            <div class="nav-ico-home">                
+                <i class="fa fa-home fa-2x" aria-hidden="true"></i>              
+            </div> 
+            <ul class="lista-menu">                          
                 <li>
-                    <a href="">Serviços</a>
+                    <a class="item" href="">Serviços</a>
                 </li>
                 <li>
-                    <a href="">Curiosidades</a>
+                    <a class="item" href="">Curiosidades</a>
                 </li>
                 <li>
-                    <a href="">Nosso espaço</a>
-                </li>
+                    <a class="item" href="">Nosso espaço</a>
+                </li>                                
             </ul>
+            <div class="nav-ico-menu">
+               <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+            </div>       
         </nav>
         <section class="banner">
             <div class="inner-banner">               
@@ -71,23 +68,23 @@
             </div>
         </section>
         <section id="cupom">
-            <div class="texto">
+            <div class="cupom-texto">
                 <h2><i class="fas fa-gift"></i> Inscreva-se para ganhar descontos!</h2>
             </div>
             <div class="inscricao">
                 <form action="">
-                    <div class="input">
-                        <input type="email">
+                    <div class="inscricao-input">                        
+                        <input type="email" class="input-email" placeholder="Digite aqui seu e-mail..." >
                     </div>
-                    <button>Enviar</button>
+                    <button class="cupom-enviar">Enviar</button>
                 </form>
             </div>
         </section>
         <section id="bemestar">           
             <div class="img-bemestar">
-                <img src="imagens/pedra-e-flor.jpeg" alt="">
+                <img src="imagens/pedra-e-flor.jpeg" alt="" loading="lazy">
             </div>
-            <div class="texto">
+            <div class="bemstar-texto">
                 <h3>É sobre bem estar</h3>
                 <h4>Cuide do seu corpo e leve boas memórias consigo.</h4>
                 <p>Carregue com você o bem-estar, onde estiver. Leve o conforto do SPA para a sua casa. Confira nossas opções de sabonetes, sais de banho e velas para presentear você mesmo ou quem você ama. </p>
@@ -95,7 +92,7 @@
         </section>
     </main>
     <footer>
-        <!--Estilizado com Sass e com <i class="fas fa-heart"></i>-->
+        <!--Estilizado com <i class="fas fa-heart"></i>-->
     </footer>
 
 </body>
