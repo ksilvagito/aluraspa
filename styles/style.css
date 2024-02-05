@@ -15,8 +15,9 @@
     --cor-secundaria:#BA704F ;
     --cor-terciaria:#DFA878 ; 
     --cor-degrade: linear-gradient(to left, var(--cor-primaria), var(--cor-secundaria), var(--cor-terciaria),var(--cor-primaria));  
-    --tamanho-tela-p: 600px; 
-    --tamanho-tela-g: 1300px;
+    
+    --tela-small: 720px; 
+    --tela-large: 1024px;
 
 }
 
@@ -28,6 +29,7 @@ body {
     font-family: var(--fonte-principal);
     font-size: 3rem;
     font-weight: 400;
+    overflow-x: hidden;
 }
 
 

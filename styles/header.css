@@ -34,12 +34,11 @@
     display: none;
 }
 
-@media screen and (max-width: 600px) { 
-
+@media screen and (max-width: 720px) { 
         
     .menu-nav {        
-        justify-content: space-between;
-        padding: 0.5rem;
+        justify-content: space-between;        
+        padding-right: 2.5rem;
     }
     .item {
         display: none;
