@@ -42,18 +42,31 @@
     #bemestar {    
         display: block;
         justify-content: center;             
-        margin: 6rem 2rem;
+        margin: 4rem 2rem;
     }
     
-    .img-bemestar {
-        height: 200px;
+    .img-bemestar {           
+        text-align: center;  
+        margin: 2rem;    
+    }
+
+    img {
+        height: 240px;        
+        width: 410px;
         object-fit: cover;
-        width: 200px;
+    }
+        
+    .bemstar-texto h3 {
+        margin: 2rem 0;
+    }
+        
+    .bemstar-texto h4 {  
+        padding: 1rem 2rem;
         text-align: center;
     }
 
     .bemstar-texto p {         
-        margin: 1rem 3rem;
+        margin: 1rem;
     }
 
 }
