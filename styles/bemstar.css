@@ -40,7 +40,6 @@
 
 @media screen and (max-width: 1024px) { 
     
-        
     #bemestar {    
         display: block;
         justify-content: center;
@@ -49,18 +48,15 @@
 
     .img-bemestar {
         background-size: cover;        
-        align-items: center;
+        text-align: center;
     }
 
     .bemstar-texto {
         margin-top: 2rem;
     }    
 
-    .bemstar-texto p {     
-        text-align: justify;
+    .bemstar-texto p {         
         margin: 1rem 3rem;
     }
-    
-    
-}
 
+}
