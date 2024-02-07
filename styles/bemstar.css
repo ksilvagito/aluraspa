@@ -37,8 +37,28 @@
     margin:1.5rem;
 }
 
+@media screen and (max-width: 720px) { 
 
-@media screen and (max-width: 1024px) { 
+    #bemestar {    
+        display: block;
+        justify-content: center;             
+        margin: 4rem 2rem;
+    }
+    
+    .img-bemestar {
+        height: 200px;
+        object-fit: cover;
+        width: 200px;
+        text-align: center;
+    }
+
+    .bemstar-texto p {         
+        margin: 1rem 3rem;
+    }
+
+}
+
+@media (min-width: 721px) and (max-width: 1024px) { 
     
     #bemestar {    
         display: block;

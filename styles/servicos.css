@@ -65,10 +65,22 @@
 
 @media screen and (max-width: 720px) { 
  
+    #servicos {
+        margin: 4rem 3rem;
+    }
+
+        
+    #servicos h4 { 
+        margin: 4rem;
+    }
+
     .cards {
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
+        display: flex;
+        flex-direction: column;       
+    }
+
+    .card {
+        align-self: center;
     }
     
     .img-container { 
