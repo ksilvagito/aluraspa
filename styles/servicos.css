@@ -69,11 +69,6 @@
         margin: 4rem 3rem;
     }
 
-        
-    #servicos h4 { 
-        margin: 4rem;
-    }
-
     .cards {
         display: flex;
         flex-direction: column;       
