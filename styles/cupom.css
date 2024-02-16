@@ -1,7 +1,7 @@
 
 #cupom {
     background-color: var(--cor-terciaria); 
-    background-size: 100vh;    
+    background-size: 100vw;    
     padding: 2rem;
     text-align: center;
 }
@@ -80,7 +80,6 @@
 }
   
 @media (max-width: 720px) { 
-
 
     .inscricao-input {       
         width: 300px;       

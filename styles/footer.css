@@ -5,5 +5,5 @@ footer {
     margin-top: 1rem;
     padding: 1.2rem;
     background: var(--cor-degrade);    
-    
+    background-size: 100vw;
 }
