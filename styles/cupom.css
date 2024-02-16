@@ -1,7 +1,7 @@
 
 #cupom {
     background-color: var(--cor-terciaria); 
-    background-size: 100vw;    
+    background-size: cover;    
     padding: 2rem;
     text-align: center;
 }
