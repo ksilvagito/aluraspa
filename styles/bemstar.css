@@ -2,6 +2,7 @@
 #bemestar {    
     display: flex;
     margin: 4rem;
+    color: var(--cor-secundaria);
 }
  
 .img-bemestar {
@@ -15,23 +16,20 @@
     font-size: 1.5rem;
 }
 
-.bemstar-texto h3 {    
-    color: var(--cor-secundaria);
+.bemstar-texto h3 { 
     font-weight: 700;    
     font-size: 2rem;
     margin: 1rem;
 }
 
-.bemstar-texto h4 {    
-    color: var(--cor-terciaria);
-    font-weight: 400;
+.bemstar-texto h4 { 
+    font-weight: 500;
     padding: 2rem 4rem;
 }
 
 .bemstar-texto p {
     font-size: 1rem;
-    font-weight: 400;
-    color: var(--cor-secundaria);
+    font-weight: 500;    
     line-height: 2rem;
     text-align: justify;
     margin:1.5rem;

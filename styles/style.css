@@ -1,6 +1,6 @@
 @import url('./reset.css');
-@import url('./header.css');
 @import url('./banner.css');
+@import url('./header.css');
 @import url('./servicos.css');
 @import url('./cupom.css');
 @import url('./bemstar.css');
@@ -13,11 +13,12 @@
     --fonte-secundaria: 'Josefin Sans', sans-serif;     
     --cor-primaria:#6C3428 ;
     --cor-secundaria:#BA704F ;
-    --cor-terciaria:#DFA878 ; 
+    --cor-terciaria:#DFA878 ;
+    --cor-botao-texto: #EFD8B8;
     --cor-degrade: linear-gradient(to left, var(--cor-primaria), var(--cor-secundaria), var(--cor-terciaria),var(--cor-primaria));  
     
-    --tela-small: 720px; 
-    --tela-large: 1024px;
+    --tela-small: 360px; 
+    --tela-large: 1400px;
 
 }
 
