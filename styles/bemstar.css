@@ -35,10 +35,41 @@
     margin:1.5rem;
 }
 
+@media screen and (max-width: 720px) { 
 
-@media screen and (max-width: 1024px) { 
+    #bemestar {    
+        display: block;
+        justify-content: center;             
+        margin: 4rem 2rem;
+    }
     
+    .img-bemestar {           
+        text-align: center;  
+    }
+
+    img {
+        height: 180px;        
+        width: 324px;
+        object-fit: cover;
+    }
         
+    .bemstar-texto h3 {
+        margin: 2rem 0;
+    }
+        
+    .bemstar-texto h4 {  
+        padding: 1rem 2rem;
+        text-align: center;
+    }
+
+    .bemstar-texto p {         
+        margin: 1rem;
+    }
+
+}
+
+@media (min-width: 721px) and (max-width: 1024px) { 
+    
     #bemestar {    
         display: block;
         justify-content: center;
@@ -47,18 +78,15 @@
 
     .img-bemestar {
         background-size: cover;        
-        align-items: center;
+        text-align: center;
     }
 
     .bemstar-texto {
         margin-top: 2rem;
     }    
 
-    .bemstar-texto p {     
-        text-align: justify;
+    .bemstar-texto p {         
         margin: 1rem 3rem;
     }
-    
-    
-}
 
+}

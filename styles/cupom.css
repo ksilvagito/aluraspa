@@ -1,8 +1,7 @@
 
 #cupom {
     background-color: var(--cor-terciaria); 
-    background-size: cover;
-    min-width: max-content;
+    background-size: cover;    
     padding: 2rem;
     text-align: center;
 }
@@ -81,11 +80,10 @@
     font-weight: 500;
 }
   
-@media screen and (max-width: 1024px) { 
+@media (max-width: 720px) { 
 
     .inscricao-input {       
-        width: 350px;
-       
+        width: 300px;       
     }
 
 }

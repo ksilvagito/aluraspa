@@ -2,7 +2,9 @@
 .menu-nav {
     display: flex;
     justify-content: center;       
-    font-size: 18px;     
+    font-size: 18px;
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
 }
 
 .nav-ico-home {
@@ -39,19 +41,20 @@
         
     .menu-nav {        
         justify-content: space-between;        
-        padding-right: 2.5rem;
+
     }
     .item {
         display: none;
     }
         
-    .nav-ico-home {
-        display: flex;
-        opacity: 0.5;       
-    }
-    .nav-ico-menu {
+    .nav-ico-home, .nav-ico-menu {
         display: flex;
         opacity: 0.5; 
+        background-size: auto;
+    }
+
+    .nav-ico-home, .nav-ico-menu i {
+        align-self: center;
     }
 }
 

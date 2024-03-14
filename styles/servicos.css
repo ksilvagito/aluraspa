@@ -20,13 +20,14 @@
 
 .cards {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-around;    
 }
 
 .card {
     width: 350px;   
     text-align: center;
     position:relative;
+    padding: 0.5rem;
 }
 
 .card:hover{
@@ -64,10 +65,17 @@
 
 @media screen and (max-width: 720px) { 
  
+    #servicos {
+        margin: 4rem;
+    }
+
     .cards {
-        display: inline-block;
-        justify-content: center;
-        align-items: center;
+        display: flex;
+        flex-direction: column;       
+    }
+
+    .card {
+        align-self: center;
     }
     
     .img-container { 
@@ -76,7 +84,7 @@
 
 }
 
-@media screen and (max-width: 1024px) { 
+@media (min-width: 721px) and (max-width: 1024px) { 
     
     .cards {
         display: flex;
