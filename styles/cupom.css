@@ -80,7 +80,7 @@
     font-weight: 500;
 }
   
-@media (max-width: 720px) { 
+@media (max-width: 360px) { 
 
     .inscricao-input {       
         width: 300px;       

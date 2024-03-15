@@ -17,16 +17,31 @@
     opacity: 0.7;
     border-radius: 20px;
     text-align: center;
+    font-weight: 500; 
 }
 
 .inner-banner h1 {    
-    font-size: 3.5rem;
-    font-weight: 500;        
+    font-size: 3.5rem;       
     margin: 1rem;
 }
 
 .inner-banner h2 {    
-    font-size: 1.2rem;
-    font-weight: 500; 
+    font-size: 1.2rem; 
     margin: 1 rem 2rem;
+}
+
+
+@media screen and (max-width: 360px) { 
+
+    .inner-banner {
+        padding: 1rem 1.5rem;        
+    }
+        
+    .inner-banner h1 {    
+        font-size: 2.5rem;
+    }
+
+    .inner-banner h2 {    
+        font-size: 0.9rem;
+    }
 }

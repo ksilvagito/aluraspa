@@ -63,7 +63,7 @@
 
 
 
-@media screen and (max-width: 720px) { 
+@media screen and (max-width: 360px) { 
  
     #servicos {
         margin: 4rem;
@@ -84,7 +84,7 @@
 
 }
 
-@media (min-width: 721px) and (max-width: 1024px) { 
+@media (min-width: 361px) and (max-width: 1399px) { 
     
     .cards {
         display: flex;

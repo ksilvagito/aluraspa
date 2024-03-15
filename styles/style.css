@@ -1,4 +1,3 @@
-@import url('./reset.css');
 @import url('./banner.css');
 @import url('./header.css');
 @import url('./servicos.css');
@@ -30,7 +29,6 @@ body {
     font-family: var(--fonte-principal);
     font-size: 3rem;
     font-weight: 400;
-    overflow-x: hidden;
 }
 
 
