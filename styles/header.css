@@ -37,7 +37,7 @@
     display: none;
 }
 
-@media screen and (max-width: 360px) { 
+@media screen and (max-width: 720px) { 
         
     .menu-nav {        
         justify-content: space-between;        

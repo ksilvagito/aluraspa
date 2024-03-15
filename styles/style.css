@@ -13,10 +13,12 @@
     --cor-primaria:#6C3428 ;
     --cor-secundaria:#BA704F ;
     --cor-terciaria:#DFA878 ;
+    --cor-texto: #7F4C33;
     --cor-botao-texto: #EFD8B8;
     --cor-degrade: linear-gradient(to left, var(--cor-primaria), var(--cor-secundaria), var(--cor-terciaria),var(--cor-primaria));  
     
-    --tela-small: 360px; 
+    --tela-small: 360px;
+    --tela-medium: 720px; 
     --tela-large: 1400px;
 
 }
