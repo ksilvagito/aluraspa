@@ -7,7 +7,7 @@
  
 .img-bemestar {
     width: 50% auto;
-    align-self: auto;   
+    align-self: flex-end;   
     object-fit: contain; 
 }
 
@@ -71,7 +71,7 @@
 
 }
 
-@media (min-width: 361px) and (max-width: 1399px) { 
+@media (min-width: 721px) and (max-width: 1200px) { 
     
     #bemestar {    
         display: block;

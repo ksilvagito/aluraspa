@@ -78,8 +78,13 @@
         align-self: center;
     }
     
+    .card p {      
+        padding: 0 2rem;
+        
+    }
+
     .img-container { 
-        margin-top: 2rem;
+        margin: 0 2rem;
     }
 
 }
@@ -96,5 +101,8 @@
         flex-grow: 3;        
     }
     
+    .img-container { 
+        margin: 0 1rem;
+    }
 }
  
