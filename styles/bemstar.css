@@ -26,9 +26,9 @@
 
 .bemstar-texto h4 { 
     color: var(--cor-secundaria);
-    font-weight: 500;
+    font-weight: 700;
     font-size: 1rem;
-    padding: 2rem 4rem;
+    padding: 1rem 4rem;
 }
 
 .bemstar-texto p {
