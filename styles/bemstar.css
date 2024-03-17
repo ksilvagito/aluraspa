@@ -7,9 +7,10 @@
  
 .img-bemestar {
     width: 50% auto;
-    align-self: flex-end;   
     object-fit: contain; 
+    padding-top: 2rem;
 }
+
 
 .bemstar-texto {
     text-align: center;    
@@ -26,7 +27,7 @@
 .bemstar-texto h4 { 
     color: var(--cor-secundaria);
     font-weight: 500;
-    font-size: 1.5rem;
+    font-size: 1rem;
     padding: 2rem 4rem;
 }
 
@@ -38,6 +39,7 @@
     margin: 1rem 6rem;
 }
 
+
 @media screen and (max-width: 720px) { 
 
     #bemestar {    
@@ -47,15 +49,16 @@
     }
     
     .img-bemestar {           
-        text-align: center;  
+        text-align: center; 
     }
 
-    img {
+    .img-bemestar img{          
         height: 180px;        
         width: 324px;
-        object-fit: cover;
+        object-fit: cover;      
     }
-        
+
+
     .bemstar-texto h3 {
         margin: 2rem 0;
     }
@@ -77,13 +80,13 @@
         display: block;
         justify-content: center;
         margin: 2rem;
-    }    
-
+    }       
+    
     .img-bemestar {
         background-size: cover;        
         text-align: center;
     }
-
+   
     .bemstar-texto {
         margin-top: 2rem;
     }    
@@ -91,5 +94,5 @@
     .bemstar-texto p {         
         margin: 1rem 3rem;
     }
-
+    
 }
